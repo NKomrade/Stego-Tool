@@ -72,8 +72,8 @@ def msg(filename):
         msg = file.read()
     return msg
 
-image_path = r"C:\Users\dearn\OneDrive\Pictures\2.bmp"
-message = msg(r"C:\Users\dearn\OneDrive\Desktop\NK FOLDER\25KB.txt")
+image_path = "Cover image path"
+message = msg("payload path")
 
 original_image = Image.open(image_path)
 
