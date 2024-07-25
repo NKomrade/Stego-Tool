@@ -66,7 +66,7 @@ def decode_combined(image):
     return lsb_binary_message, spread_spectrum_binary_message
 
 # Take input from user
-encoded_image_path = r"C:\Users\dearn\OneDrive\Pictures\2_encoded.bmp"
+encoded_image_path = "encoded image path"
 
 # Open the encoded image
 encoded_image = Image.open(encoded_image_path)
